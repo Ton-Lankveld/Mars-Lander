@@ -1,0 +1,34 @@
+# LANDER
+
+lander
+
+LMflame1
+LMflame2
+LMflame3
+
+
+
+# INSTRUMENTS PANEL
+
+UIstartButton
+
+UIfuelSwitch
+UIfuelUnlimited
+UIfuelTank
+
+UIfuelIndicator
+UIfuelLevel
+    height 144
+    width 32
+    x 1012
+    y 380
+
+UIheight
+
+UIcontactLight
+
+UIspeed
+
+UIthrustButton1
+UIthrustButton2
+UIthrustButton3
