@@ -1,0 +1,96 @@
+﻿@charset "UTF-8";
+
+/* HTML5 screen style sheet for Mars Lander game */
+/* Versie: 2017-10-17 */
+
+/*
+  Sections:
+  Common
+  Style for Header
+  Style for Article
+  Style for Footer
+*/
+
+
+/* ----- Common ----- */
+body, table th, table td {
+margin: 1em 3%;
+border: 0;
+padding: 0;
+color: #fff; /* white */
+background-color: #000; /* black */
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Verdana, "Bitstream Vera Sans", "DejaVu Sans", "Liberation Sans", Geneva, sans-serif; /* Fonts for Windows, Mac and Linux */
+font-size: 100%;
+font-weight: normal;
+font-style: normal;
+font-variant: normal;
+text-align: left;
+text-decoration: none;
+text-transform: none;
+}
+
+a:link {color: #66f;}  /* blauw */
+a:visited {color: #a0a;}  /* paars */
+a:hover {color: #aaf;}  /* licht blauw */
+a:active {color: #f00;}  /* rood */
+
+h1, h2, h3, h4, h5, h6 {
+font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif; /* Fonts for Windows, Mac and Linux */
+}
+
+/* ----- Style for Header ----- */
+
+header {
+margin: 0;
+border: 0;
+padding: 0;
+}
+
+h1 {
+margin: 0.5em 3%;
+font-size: 2.5em;
+color: #c00; /* red */
+}
+
+/* ----- End style for Header ----- */
+
+
+/* ----- Style for Article ----- */
+
+h2 {
+margin: 0.5em 3%;
+font-size: 1.7em;
+color: #cc0; /* yellow */
+}
+
+h3 {
+margin: 0.5em 3%;
+font-size: 1.2em;
+color: #cc0; /* yellow */
+}
+
+dl dt {
+text-transform: uppercase;
+}
+
+dl dd {
+margin-bottom: 1em;
+}
+
+/* ----- End style for Article ----- */
+
+
+/* ----- Style for Footer ----- */
+
+footer {
+margin-top: 2em;
+padding: 1em;
+border-top: 1px solid #fff;
+}
+
+footer p {
+margin: 0;
+text-align: center;
+}
+
+/* ----- End style for Footer ----- */
