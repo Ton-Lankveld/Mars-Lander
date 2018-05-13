@@ -1,0 +1,9 @@
+Insert SVG drawing into HTML
+
+Open 'Screen_INKSCAPE.svg' in Inkscape
+Save drawing as 'Screen.svg', with 'Plain SVG (*.svg)' file format.
+Open 'Screen.svg' in text editor.
+Copy SVG code (Ctrl+a Ctrl+c).
+Open 'index.html' in text editor.
+Paste SVG code between <section id="svg"></section> tags (Ctrl+v).
+Save 'index.html'.
