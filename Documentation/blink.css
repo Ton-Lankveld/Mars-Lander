@@ -1,0 +1,23 @@
+/* Blink animation */
+
+
+svg g.blink {
+	animation-name: blink;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+	0% {
+		visibility: visible;
+        opacity: 1;
+	}
+	50% {
+		visibility: hidden;
+        opacity: 0;
+	}
+	100% {
+		visibility: visible;
+        opacity: 1;
+	}
+}
